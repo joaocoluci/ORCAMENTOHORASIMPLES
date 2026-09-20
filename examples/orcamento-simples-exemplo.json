@@ -1,0 +1,56 @@
+{
+  "titulo": "Detalhamento do Orçamento de Horas",
+  "subtitulo": "Nome da Demanda",
+  "cabecalho": {
+    "elaborador": "João Coluci",
+    "versao": "1.0",
+    "aprovador": "Plinio Silva"
+  },
+  "identificacao": [
+    ["Cliente", "_______________________"],
+    ["ID DSTech", "0000"],
+    ["Data", "01/01/2026"],
+    ["Consultor Funcional", "Nome do Autor do Escopo"],
+    ["Orçamento Realizado por", "João Coluci"]
+  ],
+  "resumo": {
+    "titulo": "1. Resumo do que será desenvolvido",
+    "intro": "Descrição curta e funcional do que será entregue, em linguagem acessível.",
+    "rotinas": [
+      ["Assunto A — Título do escopo", "Descrição funcional do primeiro assunto, sem jargão técnico."],
+      ["Assunto B — Título do escopo", "Descrição funcional do segundo assunto."]
+    ]
+  },
+  "escopos": [
+    {
+      "nome": "2. Escopo do desenvolvimento",
+      "intro": "Contexto de entrada e premissa principal da demanda.",
+      "tituloDesenv": "2.1 Desenvolvimento",
+      "desenvolvimento": [
+        { "grupo": "Assunto A — Título do escopo", "subtotal": "40h" },
+        {
+          "item": "a) Item de desenvolvimento",
+          "horas": "16h",
+          "subs": ["Subitem descritivo em linguagem funcional", "Outro subitem"]
+        },
+        {
+          "item": "b) Outro item",
+          "horas": "24h",
+          "subs": ["Subitem", "Subitem"]
+        },
+        { "grupo": "Assunto B — Título do escopo", "subtotal": "20h" },
+        {
+          "item": "a) Item de desenvolvimento",
+          "horas": "20h",
+          "subs": ["Subitem", "Subitem"]
+        }
+      ],
+      "totalLabel": "Total do orçamento:",
+      "total": "60h"
+    }
+  ],
+  "premissas": {
+    "titulo": "3. Premissas",
+    "itens": ["Premissa 1.", "Premissa 2."]
+  }
+}
