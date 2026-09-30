@@ -2,7 +2,7 @@
 name: orcamento-horas-simples
 description: >
   Gera a versão SIMPLES do DOCX "Detalhamento do Orçamento de Horas" no padrão Sankhya
-  (mesmo layout DSTECH v.3 e paleta do Brandbook 2023), com identificação, resumo,
+  (mesmo layout DSTECH v.4 sobre o Modelo de Documento Padrão Sankhya 2026), com identificação, resumo,
   desenvolvimento e premissas — SEM fases de alinhamento, homologação e documentação,
   SEM resumo consolidado, SEM pontos a definir e SEM escopo negativo. Acionar para
   "documento simples de orçamento de horas", "orçamento de horas simples", "orçamento
@@ -67,7 +67,7 @@ O gerador já trata cada um como opcional — omitir basta, não existe flag. Mo
 
 ## Padrão visual
 
-Idêntico ao da skill completa — mesmo gerador, mesmos assets DSTECH v.3, mesma paleta. **Não sobrescrever cores nem fonte por documento.** Detalhes em `~/.claude/skills/orcamento-horas-docx/references/design-sankhya.md`.
+Idêntico ao da skill completa — mesmo gerador, mesmos assets DSTECH v.4 (capa, contracapa, logos, Work Sans embutida), mesma paleta. **Não sobrescrever cores nem fonte por documento.** Detalhes em `~/.claude/skills/orcamento-horas-docx/references/design-sankhya.md`.
 
 ## Fluxo
 
