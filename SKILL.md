@@ -42,6 +42,7 @@ Valem as mesmas da skill completa:
 - **Nunca citar banco de dados** — nada de "Oracle", "SQL Server", "dual-dialeto" ou variação.
 - **Nunca expor a base de cálculo das horas** — complexidade, fator, multiplicador, produtividade e LOC são internos. Vale inclusive em `Premissas`.
 - **Não incluir** confiança da estimativa, abordagem técnica nem stack de frontend.
+- **Nunca atribuir suporte ou manutenção à Sankhya.** Customização, add-on e desenvolvimento sob demanda não têm suporte da Sankhya: ajuste, correção ou suporte posterior é orçado e cobrado. Não escrever premissa que diga que algo "é mantido pela Sankhya", "segue pela unidade responsável pelo produto" ou equivalente. Para delimitar, no máximo: "Ajustes ou correções fora do escopo deste orçamento serão orçados à parte."
 - **Tabela de identificação:** `ID DSTech` (nunca "Chamado/OS"). `Consultor Funcional` = autor do escopo lido; sem autor identificável, **omitir a linha inteira**. `Orçamento Realizado por` é sempre `João Coluci`, obrigatório, salvo outro nome informado.
 - Nomes de grupo idênticos entre `resumo.rotinas` e os H3 do `desenvolvimento`. Divergência quebra a localização e é o erro mais comum.
 - Letra dos itens (`a)`, `b)`, ...) reinicia a cada grupo.
